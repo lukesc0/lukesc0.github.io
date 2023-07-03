@@ -5,4 +5,13 @@
 layout: page
 ---
 
-contacts page
+# Contact
+
+You can contact me in the following ways:
+
+* Email me at lukecarlson328@gmail.com (personal)
+* Email me at lukecarlson2024@u.northwestern.edu (university)
+
+If you'd like to check out my Linkedin, you can find me at:
+
+* https://www.linkedin.com/in/luke-s-carlson/
