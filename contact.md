@@ -5,7 +5,7 @@
 layout: page
 ---
 
-# Contact
+# Contact me
 
 You can contact me in the following ways:
 
