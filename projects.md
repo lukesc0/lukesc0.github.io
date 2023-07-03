@@ -5,4 +5,4 @@
 layout: projects
 ---
 
-projects go here
+projects go here page
