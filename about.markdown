@@ -7,9 +7,18 @@ layout: page
 
 # About me
 
-I am originally from San Francisco, CA, where I graduated high school in 2016. Currently I am an undergraduate
-student at Northwestern University in Evanston, IL, with plans to graduate in June of 2024. I study Mechanical 
-Engineering with a concentration in robotics, and a minor in International Studies.
+![Me](https://guides.github.com/activities/hello-world/branching.png)
+
+My name is Luke Carlson, and I'm from San Francisco, CA, where I graduated high school in 2016. Currently I
+am an undergraduate student at Northwestern University in Evanston, IL, with plans to graduate in June of 2024. 
+I study Mechanical Engineering with a concentration in robotics and a minor in International Studies. I have a
+wide variety of engineering-related interests, but as of now I am most enthusiastic about robotics and the
+space industry. I also enjoy coding and making games in my free time, as well as learning about global history.
+
+Outside of engineering, I also love to play music – I've been playing jazz drums for over ten years and rock
+guitar for around five years. In the future I may update this website with some original recordings. My
+other interests include skiing, casually playing basketball, and travelling – I hope to visit as many countries
+and states as I possibly can in my lifetime.
 
 # Work experience
 
