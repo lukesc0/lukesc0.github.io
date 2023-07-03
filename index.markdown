@@ -14,4 +14,4 @@ I plan to continuously update this website with new content. The projects page i
 finished yet –– I plan to add more in the future, whenever I have time.
 
 This website was made using Jekyll and Github Pages, using the Midnight theme. You can check out
-the Github repo [here](https://](https://github.com/lukesc0/lukesc0.github.io)https://github.com/lukesc0/lukesc0.github.io).
+the Github repo at the link above.
