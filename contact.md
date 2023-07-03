@@ -5,4 +5,4 @@
 layout: default
 ---
 
-contacts
+contacts page
