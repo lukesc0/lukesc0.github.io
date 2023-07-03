@@ -6,3 +6,5 @@ layout: default
 ---
 
 Just testing some changes here
+
+[Test link](./test.html).
