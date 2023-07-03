@@ -7,7 +7,7 @@ layout: page
 
 # About me
 
-![Me](https://guides.github.com/activities/hello-world/branching.png)
+![Me](https://github.com/lukesc0/lukesc0.github.io/blob/main/IMG_9136.HEIC)
 
 My name is Luke Carlson, and I'm from San Francisco, CA, where I graduated high school in 2016. Currently I
 am an undergraduate student at Northwestern University in Evanston, IL, with plans to graduate in June of 2024. 
