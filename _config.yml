@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   planning on graduating in June of 2024. I have professional engineering experience at Maxar Technologies,
   a satellite manufacturing company, where I designed custom test equipment for aerospace applications, and at 
   Wearifi, Inc., a small startup where I did manufacturing and materials research for biomedical devices.
-  This website is primarily a portfolio to showcase some of my personal and academic projects.
+  This website is primarily a portfolio to showcase some of my personal and academic projects (i.e. non-professional).
 
   Contact me at lukecarlson2024@u.northwestern.edu.
 baseurl: "" # the subpath of your site, e.g. /blog
