@@ -6,4 +6,5 @@ layout: default
 ---
 
 # Projects
-[Link to another page](./another-page.html).
+
+[Link to another page](./another-page.html). Add description here.
