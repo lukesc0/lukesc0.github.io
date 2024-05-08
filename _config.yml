@@ -19,9 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: lukesc.xyz
-email: lukecarlson328@gmail.com
+email: lukecarlson2024@u.northwestern.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  A portfolio
+  A portfolio to showcase my engineering experience and projects.
+
+  Contact me at lukecarlson2024@u.northwestern.edu.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
