@@ -14,7 +14,7 @@ Our final product had to meet the following design requirements:
 
 1. Be capable of firmly grasping/manipulating light laboratory objects (ex: vials)
 2. Provide real-time haptic feedback to the operator
-3. A maximum of 2 actuators per robotic appendage
+3. A maximum of 2 actuators (both back-drivable) per robotic appendage
 4. Must be designed almost entirely for in-house manufacturing and assembly out of metal
 
 For req. 1, we settled on a target of 10-nm of torque applied at the tip of the thumb, based on quick calculations assuming the weight of a vial is ___.
@@ -27,7 +27,7 @@ Req. 4 meant we had to design within the constraints of the manufacturing tools 
 
 Motors...
 
-After a prototyping phase in which we used 3D printers to demo various mechanical designs, the mechanical committee settled on a pulley driven "tendon" system, in which robotic links were driven by metal cables. After several iterations we settled upon a final design that utilized two main motions. Overview of system ____
+After a prototyping phase in which we used 3D printers to demo various mechanical designs, the mechanical committee settled on a pulley driven "tendon" system, in which robotic links were driven by metal cables. After several iterations we settled upon a final design that utilized two main motions. Overview of system ____ backdrivability, slippage, tensioning mechanism
 
 [tendon picture here]
 
