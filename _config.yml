@@ -21,12 +21,7 @@
 title: Luke Carlson
 email: lukecarlson2024@u.northwestern.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a senior at Northwestern University pursuing a Bachelor of Science in 
-  Mechanical Engineering with a concentration in robotics and a minor in International Studies,
-  planning on graduating in June of 2024. I have professional engineering experience at Maxar Technologies,
-  a satellite manufacturing company, where I designed custom test equipment for aerospace applications, and at 
-  Wearifi, Inc., a small startup where I did manufacturing and materials research for biomedical devices.
-  This website is primarily a portfolio to showcase some of my personal and academic projects (i.e. non-professional).
+  desc here
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
