@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Welcome to another page
+## Robotic Thumb
 
-_yay_ testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+
 
 [back](./)
