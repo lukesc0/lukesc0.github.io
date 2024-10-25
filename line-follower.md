@@ -6,7 +6,7 @@ layout: default
 
 ### Overview
 
-
+The final of my 400-level mechatronics class was to create a wheeled robot capable of following a line, guided by a camera and an image recognition program.
 
 ### Mechanical Design
 
