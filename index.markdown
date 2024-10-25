@@ -7,22 +7,27 @@ layout: default
 
 # Portfolio
 
-## [Robot Thumb](./another-page.html). 
+### [Robot Thumb](./another-page.html). 
+Robotics Capstone Project -- Mechanical Design and Manufacturing Lead
 
-> Add description here.
+> A 6-month multi-team project to develop a robotic finger and thumb system controller by a haptic interface, allowing an operator to remotely grasp lab objects while providing tactile and force feedback. Designed and manufactured entirely in-house.
 
-### [Line following robot](./another-page.html). 
+### [Line Following Robot](./another-page.html). 
+Mechatronics Project -- Designer and Engineer
 
-> Add description here.
+> A mechatronics competition in which I designed and built a wheeled line following robot, utilizing a PIC32 microntroller to issue motor commands and a Raspberry Pi PICO W running an image processing program through a camera.
 
 ### [Physics Simulations](./another-page.html). 
+Dynamics Project -- Programmer
 
-> Add description here.
+> A series of 2-dimensional physics simulations, coded by scratch in Python.
 
 ### [Pick and Place Machine Research](./another-page.html). 
+Querrey Simpson Institute for Bioelectronics -- Student Researcher
 
-> Add description here.
+> As a student researcher at QSIB, a Northwestern biomedical and electronics lab, I specialized in optimizing the manufacturing of small-scale flexible electronics using a Pick and Place machine to mount SMD components.
 
-### [Bracket](./another-page.html). 
+### [Mounting Bracket](./another-page.html). 
+Mechanical Design Class -- Co-engineer
 
-> Add description here.
+> A quarter-long mechanical design assignment in which I and a co-engineer developed a 3D printable milling machine mounting bracket.
