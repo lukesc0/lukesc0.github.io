@@ -27,7 +27,7 @@ Req. 4 meant we had to design within the constraints of the manufacturing tools 
 
 Motors...
 
-After a prototyping phase in which we used 3D printers to demo various mechanical designs, the mechanical committee settled on a pulley driven "tendon" system, in which robotic links were driven by metal cables. After several iterations we settled upon a final design that utilized two main motions. Overview of system ____ backdrivability, slippage, tensioning mechanism
+After a prototyping phase in which we used 3D printers to demo various mechanical designs, the mechanical committee settled on a pulley driven "tendon" system, in which robotic links were driven by metal cables. After several iterations we settled upon a final design that utilized two main motions. Overview of system ____ backdrivability, slippage, tensioning mechanism, size
 
 [tendon picture here]
 
