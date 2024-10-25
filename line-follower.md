@@ -2,8 +2,18 @@
 layout: default
 ---
 
-## Welcome to another page
+# Line Following Robot
 
-line follower
+### Overview
+
+
+
+### Mechanical Design
+
+### Electrical and Software Design
+
+### Result
+
+Picture
 
 [back](./)
