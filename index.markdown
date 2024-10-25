@@ -30,6 +30,8 @@ _Dynamics Project -- Programmer_
 
 A series of 2-dimensional physics simulations, coded in Python.
 
+![Box](https://github.com/lukesc0/lukesc0.github.io/blob/main/pics/box.png)
+
 [View project](./physics.html)
 * * *
 
