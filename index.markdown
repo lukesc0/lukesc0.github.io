@@ -47,3 +47,8 @@ _Mechanical Design Class -- Co-engineer_
 A quarter-long mechanical design assignment in which I and a co-engineer developed a 3D printable milling machine mounting bracket.
 
 [View project](./bracket.html)
+* * *
+
+### ME 449
+
+Add here
