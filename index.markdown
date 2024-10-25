@@ -28,7 +28,7 @@ A mechatronics competition in which I designed and built a wheeled line followin
 ### Physics Simulation. 
 _Dynamics Project -- Programmer_
 
-A series of 2-dimensional physics simulations, coded by scratch in Python.
+A series of 2-dimensional physics simulations, coded in Python.
 
 [View project](./physics.html)
 * * *
