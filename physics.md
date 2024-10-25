@@ -58,7 +58,7 @@ F_mat = sym.Matrix([0, F1, F2, 0, 0, 0])
 F1 is equal to the force the box experiences due to gravity – this keeps it centered in our screen and ensures that it does not fall off, and allows the jack to fall onto the walls of the box.
 F2 is a simple torque that causes the box to infinitely rotate, simulating shaking the box, and causing the jack to bounce.
 
-We then setup and solve the EL equations as we always have, although this time the EL equations corresponding to ybox and thbox are set to F1 and F2 respectively as opposed to 0, to add in the external force:
+We then setup and solve the EL equations as we always have CHANGETHIS, although this time the EL equations corresponding to ybox and thbox are set to F1 and F2 respectively as opposed to 0, to add in the external force:
 ```python
 L = sym.Matrix([L])
 dLdq = L.jacobian(q).T
