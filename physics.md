@@ -14,6 +14,7 @@ This is a series of 2D mechanical dynamics simulations, coded and animated from 
 
 ### Code
 
-[code here]
+To calculate the Euler-Lagrange equations, I first defined overall transformations to each frame. We then calculate PE as you would normally, as m*g*y, however this time written in terms of the transformations to the center of the objects, g_wb(for the box) and g_wj(for the jack):
+
 
 [back](./)
