@@ -10,7 +10,11 @@ I spent one of my summers and an academic year working as a student researcher a
 
 ### Research
 
-My research was based on the fabrication of 2 different devices.
+My research was based on the fabrication of 2 different devices, a brain patch and an imaging device, both of which used nano-scale diodes to influence the behavior of lab rats.
+
+[Image of brain patch]
+
+
 
 ### Results
 
