@@ -7,6 +7,8 @@ layout: default
 
 # Portfolio
 
+* * *
+
 ### [Robot Thumb](./robot-thumb.html). 
 Robotics Capstone Project -- Mechanical Design and Manufacturing Lead
 
