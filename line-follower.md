@@ -33,14 +33,20 @@ The program to run the motors is fairly simple, using a PWM signal:
     OC1R = 600-1;              // initialize before turning OC1 on; afterward it is read-only
 ```
 
-To actual turn on the motor you would run OC1RS = _____. To tell when each motor to actuate and by how much, I had a very simple program that essentially said "if the line is to the right of the camera, actuate the left motor, and vice versa."
+To actually turn on the motor you would run OC1RS = (your desired value). To tell when each motor to actuate and by how much, I had a very simple program that essentially said "if the line is to the right of the camera, actuate the left motor, and vice versa."
 
+I had the PIC32 communicating through UART with a PICO W, which is what interfaced with the camera. I had some fairly extensive code written for image/line recognition (modified from the PICO W wiki/guide online). In essence, the software created a horizontal line across the middle of the camera's view, with each pixel in the line being a summation of the colors in each pixel of its respective vertical row. Since the robot was following a black track with a white background, the software could tell where the track was based on the horizontal position of the darkest pixel in the line. It would then send the value of that position to the PIC32, and using that value compared against the total width of the line the PIC32 would know if the robot was centered or not.
 
+[video of the image recognition in action]
 
 ### Mechanical Design
 
+The mechanical design was a lot simpler than the electrical and software design. I had a wood board which I mounted my electronics on. I had two wheels attached to the two motors -- both wheels were 3D printed and press-fitted onto the motors. And I had another wooden mount for my camera, facing down at the track. A spoon underneath the board kept the back of the robot from dragging and reduced frictional contact.
+
 ### Result
 
-Picture
+Unfortunately I did not video the final product in operation, as this was before I began documenting all of my projects. It ended up being able to follow the line accurately, albeit slowly.
+
+[Picture]
 
 [back](./)
