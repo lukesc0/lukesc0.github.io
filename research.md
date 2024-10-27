@@ -28,7 +28,12 @@ As such, I compiled 3 main goals:
 
 While pursuing my first goal, I followed a fairly straightforward process of trial and error, in which I would vary either the size of the nozzle or the amount of suction used (or both). I tested a range of different nozzle sizes, starting from the largest diameter that was still smaller than the width of the LEDs. As the LEDs were around 100x100 microns, this was already fairly small. I then worked my way down to the smallest nozzle available, ____. With each size, I also tested having the suction on or off -- as described in the results section, it turns out that with components this small Van-der-Waals forces are at times all you need.
 
-For my second goal, I conceptualized a few different methods of PCB mounting and tested each using the optimal nozzle and settings I eventually found with my first goal. For each method, I attempted to use the machine to place LEDs ... I made sure to note both the variation in position and rotational angle...
+For my second goal, I conceptualized a couple different methods of PCB mounting and tested each using the optimal nozzle and settings I eventually found with my first goal:
+
+1. The first method was the standard used throughout the lab with larger components -- simply taping the flexible PCB onto a hard copper plate, and calibrating using two fiducials.
+2. The second and newer method was similar to the first, but instead of calibrating off of circular fiducials that were relatively larger compared to the components I calibrated off of the component pads themselves.
+
+For each method, I attempted to use the machine to place LEDs one at a time, instead of running the whole program to place them in sequence. I made sure to note the variations in the LED's actual positions and rotational angles as compared to what was desired, and used that as a baseline to determine which PCB mounting procedure resulted in the highest level of accuracy.
 
 For my third and final goal, I held brief training sections with the brain patch and imaging device teams instructing them on my processes and how to use the programs I wrote.
 
