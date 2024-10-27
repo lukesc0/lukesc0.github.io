@@ -14,7 +14,7 @@ Our final product had to meet the following design requirements:
 
 1. With a milling machine bit mounted in the bracket and 100N of force applied at the end in either the x, y, or z directions, the end of the bit should deflect less than 2mm from its starting position in any direction.
 2. 3D printable, made out of Nylon 12.
-3. Less than 
+3. Less than ___
 4. Maintains a rectangular opening at the center of the bracket to house sensing equipment, such as an accelerometer for vibration testing.
 
 [first iteration image]
@@ -25,12 +25,12 @@ Our bracket was designed across multiple iterations -- with each, we ran a weigh
 
 [FEA image] 
 
-We also incorporated general modeling guidelines, such as fillets to avoid sharp corners and concentration stresses, as well as 
+We also incorporated general modeling guidelines, such as fillets to avoid sharp corners and concentration stresses. Our printer was capable of handling overhangs and relatively fine details, so we did not have to take those into account.
 
-In order to make our part 3D printable, 
+[drawing]
 
 ### Results
 
-
+[image of final bracket in testing setup]
 
 [back](./)
