@@ -20,17 +20,19 @@ Previously, most devices in the lab using components this size were built by han
 
 As such, I compiled 3 main goals:
 
-1. Find the best-performing method of picking up components, which would include testing various suction-tip sizes as well as machine settings.
+1. Find the best-performing method of picking up components, which would mainly consist of testing various nozzle sizes as well as machine settings.
 2. Develop a proper PCB mounting procedure to ensure accurate component placement.
-3. Provide instructions to fellow researchers so that my processes could be recreated.
+3. Program the Pick and Place machine to build my two devices and provide instructions to fellow researchers so that my processes could be recreated.
 
 ### Methods
 
+While pursuing my first goal, I followed a fairly straightforward process of trial and error, in which I would vary either the size of the nozzle or the amount of suction used (or both). I tested a range of different nozzle sizes, starting from the largest diameter that was still smaller than the width of the LEDs. As the LEDs were around 100x100 microns, this was already fairly small. I then worked my way down to the smallest nozzle available, ____. With each size, I also tested having the suction on or off -- as described in the results section, it turns out that with components this small Van-der-Waals forces are at times all you need.
 
+For my second goal, I conceptualized a few different methods of PCB mounting and tested each using the optimal nozzle and settings I eventually found with my first goal. For each method, I attempted to use the machine to place LEDs ... I made sure to note both the variation in position and rotational angle...
+
+For my third and final goal, I held brief training sections with the brain patch and imaging device teams instructing them on my processes and how to use the programs I wrote.
 
 ### Results
-
-Unfortunately, I'm not allowed to include video of the lab or of the Pick and Place machine in action, but I will describe my results here.
 
 Not using suction, using van-der-waals instead.
 
