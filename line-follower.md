@@ -41,11 +41,11 @@ I had the PIC32 communicating through UART with a PICO W, which is what interfac
 
 ### Mechanical Design
 
-The mechanical design was a lot simpler than the electrical and software design. I had a wood board which I mounted my electronics on. I had two wheels attached to the two motors -- both wheels were 3D printed and press-fitted onto the motors. And I had another wooden mount for my camera, facing down at the track. A spoon underneath the board kept the back of the robot from dragging and reduced frictional contact.
+The mechanical design was a lot simpler than the electrical and software design. I had a wood board which I mounted my electronics on. I had two wheels attached to the two motors -- both wheels were 3D printed and used press-fitting tolerances to attach to the motors. And I had another wooden mount for my camera, facing down at the track. A spoon underneath the board kept the back of the robot from dragging and reduced frictional contact.
 
 ### Result
 
-Unfortunately I did not video the final product in operation, as this was before I began documenting all of my projects. It ended up being able to follow the line accurately, albeit slowly.
+Unfortunately I did not video the final product in operation, as this was before I began documenting all of my projects. The robot was capable of following the track, even though it was not a uniform oval.
 
 [Picture]
 
