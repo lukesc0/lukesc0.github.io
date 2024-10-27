@@ -27,13 +27,23 @@ Req. 4 meant we had to design within the constraints of the manufacturing tools 
 
 Motors...
 
-After a prototyping phase in which we used 3D printers to demo various mechanical designs, the mechanical committee settled on a pulley driven "tendon" system, in which robotic links were driven by metal cables. After several iterations we settled upon a final design that utilized two main motions. Overview of system ____ backdrivability, slippage, tensioning mechanism, size
+After a prototyping phase in which we used 3D printers to demo various mechanical designs, the mechanical committee settled on a pulley driven "tendon" system, in which robotic links were driven by metal cables. One of the main reasons why we opted for a tendon-based system was to address our concern of backdrivability. The motors needed to be able to move the robotic links, but at the same time the robotic links needed to be able to move the motors. If we physically grabbed a part of the thumb (say, the tip/end-effector) we needed to be able to cause equal motion in the motor shaft itself. This was necessary to make sure that our motor encoders and the actual position of our robotic links remained properly in-sync even after the robot made physical contact with an object. In a similar fashion, backdrivabiltiy made force-feedback in the haptic controller possible. We found that a tendon-based pulley system was optimal in creating backdrivability.
+
+After several iterations we settled upon a final design that utilized two main motions. One motor actuated "curl," essentially the links of the thumb folding inward to apply force upon an object, and the other motor actuated "waggle," a side-to-side motion that would allow the thumb to be properly positioned. This allowed us to achieve ___ DOF with only 2 motors.
+
+[images here]
+
+One of our most significant design concerns (and one of the downsides of a pulley driven system) was cable slippage, which occurs when cables are not sufficiently tensioned around a pulley. Slippage can lead to a discrepency between the motor's rotational input and the actual motion of the robotic links, discrepencies between our motor encoder readings and the actual position of our thumb, and at worst an improperly tensioned cable could leave the motor unable to drive the system at all.
+
+To counter this concern we introduced a tensioning mechanism that would allow us to tighten cables both during assembly and after the system was put together....
+
+As for the overall size of the thumb, we coordinated with the robot finger team and agreed that life-size would be best.
 
 [tendon picture here]
 
 ### Manufacturing
 
-Manufacturing methods and components, BOM
+Manufacturing methods and components
 
 ### Results
 
