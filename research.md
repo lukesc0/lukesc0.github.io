@@ -18,18 +18,26 @@ My research was based on the fabrication of 2 different devices, a brain patch a
 
 Previously, most devices in the lab using components this size were built by hand, using tweezers under a microscope -- an arduous and time-consuming process. My goal was to fully automate the component placement process, so that a fellow researcher could follow simple PCB mounting and solderpaste screen-printing instructions, place the device into the Pick and Place machine, calibrate, and press play.
 
+As such, I compiled 3 main goals:
+
+1. Find the best-performing method of picking up components, which would include testing various suction-tip sizes as well as machine settings.
+2. Develop a proper PCB mounting procedure to ensure accurate component placement.
+3. Provide instructions to fellow researchers so that my processes could be recreated.
+
 ### Methods
 
 
 
 ### Results
 
-Unfortunately, I'm not allowed to include video of the lab or of the Pick and Place machine in action.
+Unfortunately, I'm not allowed to include video of the lab or of the Pick and Place machine in action, but I will describe my results here.
 
 Not using suction, using van-der-waals instead.
 
 Providing instructions to properly clean end bit of pick and place machine, using smallest bit possible.
 
 Proper PCB mounting guidance -- perfect accuracy and orientation extremely important.
+
+[find other images]
 
 [back](./)
