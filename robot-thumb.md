@@ -31,7 +31,11 @@ After a prototyping phase in which we used 3D printers to demo various mechanica
 
 After several iterations we settled upon a final design that utilized two main motions. One motor actuated "curl," essentially the links of the thumb folding inward to apply force upon an object, and the other motor actuated "waggle," a side-to-side motion that would allow the thumb to be properly positioned. This allowed us to achieve ___ DOF with only 2 motors.
 
+Workspace...
+
 [images here]
+
+Transmission...
 
 One of our most significant design concerns (and one of the downsides of a pulley driven system) was cable slippage, which occurs when cables are not sufficiently tensioned around a pulley. Slippage can lead to a discrepency between the motor's rotational input and the actual motion of the robotic links, discrepencies between our motor encoder readings and the actual position of our thumb, and at worst an improperly tensioned cable could leave the motor unable to drive the system at all.
 
