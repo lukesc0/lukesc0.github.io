@@ -6,7 +6,7 @@ layout: default
 
 ### Overview
 
-This is a series of 2D mechanical dynamics simulations, coded and animated from scratch Python. Most are pendulum-based, but the final is a "jack-in-box" simulation. Click the links below to watch the demo videos, and scroll down to view a high-level overview of the code for the final simulation.
+This is a series of 2D mechanical dynamics simulations, coded and animated from scratch Python. Most are pendulum-based, but the final is a "jack-in-box" simulation in which an unconstrained, unforced jack is trapped within a shaking box. Click the links below to watch the demo videos, and scroll down to view a high-level overview of the code for the final simulation -- which is essentially a more complex version of earlier entries.
 
 ### Demo
 
