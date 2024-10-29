@@ -39,11 +39,13 @@ For my third and final goal, I held brief training sections with the brain patch
 
 ### Results
 
-Not using suction, using van-der-waals instead.
+I was able to achieve all 3 of my goals, with some surprising results.
 
-Providing instructions to properly clean end bit of pick and place machine, using smallest bit possible.
+* I found that using the smallest available nozzle was almost always preferred, as using larger nozzles increased the risk of erroneous component placement. The LEDs were so small that having a larger nozzle in comparison could lead to incomplete or off-center suction, resulting in components being picked up at an angle.
+* Interestingly, I also found that in some cases suction was not needed to lift components. The LEDs were small enough that Van-der-Waals forces alone could lift them. This tended to be advantageous when components were able to be smoothly removed from adhesive-free packaging, and cut out a step in the manufacturing process.
+* As for proper PCB mounting and calibration, I found that the standard method of PCB-on-copper-plate was sufficient, however, the most consistent method of making sure the Pick and Place machine was properly aligned with the board was to calibrate not based on fiducials, but by aligning the camera center and horizontal axes with a corner of one of the component pads. This allowed less room for operator error and made alignment more visually clear. I took this into account when programming the machine to build these specific devices.
 
-Proper PCB mounting guidance -- perfect accuracy and orientation extremely important.
+Using my findings, I was able to successfully program the Pick and Place machine to build both devices. I held multiple live demos where I instructed my fellow researchers both on how to use the program, as well as how to create their own for other devices.
 
 [find other images]
 
