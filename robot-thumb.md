@@ -21,7 +21,7 @@ For req. 1, we settled on a target of 10-nm of torque applied at the tip of the 
 
 We left the incorporation of req. 2 to the haptic thumb team.
 
-Req. 3 was our most significant design constraint, as we wanted to achieve ___ DOF...
+Req. 3 was our most significant design constraint, as we wanted to achieve motion in 3 dimensions while being limited to 2 actuators. We achieved this by having one of our motors control two coupled links, while the other controlled a third.
 
 Req. 4 meant we had to design within the constraints of the manufacturing tools we had available. At our disposal was a waterjetting machine, milling machines, lathe machines, FDM 3D printers (to be used extremely minimally), as well as tools for general operations and assembly like bending or press fitting bearings. As a result of these constraints, our final product was made out of machined aluminum and assembled using smaller parts from McMaster-Carr -- more info in the manufacturing section below.
 
