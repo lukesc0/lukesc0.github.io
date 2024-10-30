@@ -70,11 +70,15 @@ See overall assembly drawings here:
 
 ### Results
 
+The final thumb:
+
 [picture of final thumb]
+
+The final system:
 
 [picture of full system]
 
-During our end of year demo, we
+We were able to achieve all 4 of our requirements with our design. During our end of year demo, we successfully utilized the system to pick up various objects. Operators were able to remotely feel the force of the items they were grasping as if they were using their own hands. Watch the demo video below:
 
 [demo video]
 
