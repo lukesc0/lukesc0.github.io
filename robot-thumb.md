@@ -72,6 +72,10 @@ The final thumb:
 
 [picture of final thumb]
 
+Here's a video demonstrating our thumb's capabilities:
+
+[video]
+
 The final system:
 
 [picture of full system]
