@@ -36,28 +36,26 @@ MCP and IP Joints - Curl
 * Combined Curl System Can Achieve ~115° ROM at the Thumb Tip - MCP and IP Joints Each Contribute ~57.5° ROM
 * Around 1.6Nm of Torque Production at Thumb Tip
 
-[image]
+![Curl](pics/curltension.png)
 
 CMC Joint - Waggle
 * Actuated with Maxon EXC Torque XL
 * Transmission Ratio of 7.33:1 between Motor and CMC Joint
 * Can Achieve ~90° ROM Around CMC Joint
 
-[image]
+![Waggle](pics/waggletension.png)
 
 One of our most significant design concerns (and one of the downsides of a pulley driven system) was cable slippage, which occurs when cables are not sufficiently tensioned around a pulley. Slippage can lead to a discrepency between the motor's rotational input and the actual motion of the robotic links, discrepencies between our motor encoder readings and the actual position of our thumb, and at worst an improperly tensioned cable could leave the motor unable to drive the system at all.
 
 To counter this concern we introduced tensioning mechanisms that would allow us to tighten cables both during assembly and after the system was put together. The waggle tendon was tensioned by tightening wingnuts fixed at each end (shown above). Our curl tendons were tied off to metal bars that could slide along the length of each respective link, and could be tightened by screws to be held in place. By loosening the screws and pulling the cable as far as possible and then re-tightening, proper tension could be created.
 
-[image]
-
 Our final CAD design is shown here, with drawings included in the manufacturing section:
 
-[final design cad]
+![cad](pics/finalthumbcad.png)
 
 This design resulted in the following thumb workspace, basically a 2D surface living in 3D:
 
-[image]
+![workspace](pics/workspace.png)
 
 ### Manufacturing
 
@@ -70,15 +68,15 @@ See overall assembly drawings here:
 
 The final thumb:
 
-[picture of final thumb]
+![final](pics/finalthumb.png)
 
 Here's a video demonstrating our thumb's capabilities:
 
-[video]
+[Video](https://www.youtube.com/watch?v=stNRdaBIMV4&feature=youtu.be)
 
 The final system:
 
-[picture of full system]
+![system](pics/finalsystem)
 
 We were able to achieve all 4 of our requirements with our design. During our end of year demo, we successfully utilized the system to pick up various objects. Operators were able to remotely feel the force of the items they were grasping as if they were using their own hands. Watch the demo video below:
 
