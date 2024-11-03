@@ -43,7 +43,7 @@ To actually turn on the motor you would run OC1RS = (your desired value). To tel
 
 I had the PIC32 communicating through UART with a PICO W, which is what interfaced with the camera. I had some fairly extensive code written for image/line recognition (modified from the PICO W wiki/guide online). In essence, the software created a horizontal line across the middle of the camera's view, with each pixel in the line being a summation of the colors in each pixel of its respective vertical row. Since the robot was following a black track with a white background, the software could tell where the track was based on the horizontal position of the darkest pixel in the line. It would then send the value of that position to the PIC32, and using that value compared against the total width of the line the PIC32 would know if the robot was centered or not.
 
-[video of the image recognition in action]
+[video](https://youtu.be/Sd_w9C9yCgY)
 
 ### Mechanical Design
 
