@@ -12,7 +12,13 @@ The final of my 400-level mechatronics class was to create a wheeled robot capab
 
 I used two wheels and two actuating motors to control the robot. A PIC32MX170F256B microcontroller, programmed in and compiled in C, held command over the robot's motion. The PIC32 and all of my other electrical components were soldered onto a custom PCB I designed in KiCAD and ordered through PCBWay.
 
-![pcb](pics/pcb.png)
+Circuit diagram:
+
+![diagram](pics/circuitdiagram.png)
+
+Board layout:
+
+![pcb](pics/boardlayout.png)
 
 Most of the circuit design was just based on the datasheet for the PIC32, which specifies what pins are used for power, for data input/output, where LEDs should go to signal power/data upload, etc. To interface with my computer, I used an Adafruit UART Friend in conjuction with a 3.3V regulator. The actual board is made up of two conducting layers. I used "Manhattan style" connections, where one layer is used to create horizontal connections and the other layer is used for vertical connections. This helps to alleviate possible shorts and makes board design easier.
 
@@ -47,6 +53,6 @@ The mechanical design was a lot simpler than the electrical and software design.
 
 During our year-end competition, the line following robot was capable of following the track in its entirety, even with the various twists and turns set before it. It did so slowly as the program I wrote to actuate the motors when the camera was off center was fairly basic. If I were to build a second iteration of the robot, I would focus much more on its main controlling program, and would incorporate a feedback control algorithm to allow it to operate faster and smoother.
 
-![linefollower](pics/linefollower.png)
+![linefollower](pics/follower.png)
 
 [back](./)
