@@ -6,7 +6,7 @@ layout: default
 
 ### Overview
 
-This is a series of 2D mechanical dynamics simulations, coded and animated from scratch Python. Most are pendulum-based, but the final is a "jack-in-box" simulation in which an unconstrained, unforced jack is trapped within a shaking box. Click the links below to watch the demo videos, and scroll down to view a high-level overview of the code for the final simulation -- which is essentially a more complex version of earlier entries.
+This is a series of 2D mechanical dynamics simulations, coded and animated from scratch in Python. Most are pendulum-based, but the final is a "jack-in-box" simulation in which an unconstrained, unforced jack is trapped within a shaking box. Click the link below to watch the demo video, and scroll down to view a high-level overview of the code for the final simulation -- which is essentially a more complex version of earlier entries.
 
 ### Demo
 
@@ -41,7 +41,7 @@ KEbox = .5*(Vbox.T*Ibox*Vbox)[0]
 KEjack = .5*(Vjack.T*Ijack*Vjack)[0]
 ```
 
-Then you calculate the lagrangian as normal, with L = KE - V:
+Then you calculate the lagrangian with L = KE - V:
 ```python
 #lagrangian
 L = KEbox + KEjack - PEbox - PEjack
@@ -58,7 +58,7 @@ F_mat = sym.Matrix([0, F1, F2, 0, 0, 0])
 F1 is equal to the force the box experiences due to gravity – this keeps it centered in our screen and ensures that it does not fall off, and allows the jack to fall onto the walls of the box.
 F2 is a simple torque that causes the box to infinitely rotate, simulating shaking the box, and causing the jack to bounce.
 
-We then setup and solve the EL equations as we always have CHANGETHIS, although this time the EL equations corresponding to ybox and thbox are set to F1 and F2 respectively as opposed to 0, to add in the external force:
+We then setup and solve the EL equations, although this time the EL equations corresponding to ybox and thbox are set to F1 and F2 respectively as opposed to 0, to add in the external force:
 ```python
 L = sym.Matrix([L])
 dLdq = L.jacobian(q).T
@@ -71,7 +71,7 @@ eqns = sym.Eq(F_mat, dLdqdotdt - dLdq)
 solution = sym.solve(eqns, [xboxddot, yboxddot, thboxddot, xjackddot, yjackddot, thjackddot])
 ```
 
-For the constraints, you essentially need to come up with a ‘phi’ for each frame interacting with another frame – so for example, “phi_aa” is the constraint for wall A interacting with / being impacted by corner A on the jack. You end up having 16 ‘phi’s total, where each one is the inverse of the respective box wall transformation multiplied by the respective jack corner transformation, then taking either “3” or “7” of the resulting matrix depending on if we are looking at an “x impact” or “y impact”:
+For the constraints, you essentially need to come up with a ‘phi’ for each frame interacting with another frame – so for example, “phi_aa” is the constraint for wall A interacting with / being impacted by corner A on the jack. You end up having 16 'phi’s total, where each one is the inverse of the respective box wall transformation multiplied by the respective jack corner transformation, then taking either “3” or “7” of the resulting matrix depending on if we are looking at an “x impact” or “y impact”:
 ```python
 #first 'x' impacts
 phi_aa = (se3_inverse(g_wba) * g_wja)[3]
@@ -95,7 +95,7 @@ phi_db = (se3_inverse(g_wbd) * g_wjb)[7]
 phi_dc = (se3_inverse(g_wbd) * g_wjc)[7]
 phi_dd = (se3_inverse(g_wbd) * g_wjd)[7]
 ```
-All of these ‘phi’s get compiled into a matrix.
+All of these 'phi’s get compiled into a matrix.
 
 You can then set up the impact expressions, defining dummy variables to substitute in:
 ```python
