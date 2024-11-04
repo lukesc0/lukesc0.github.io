@@ -78,8 +78,6 @@ Here's a video of the thumb in action:
 
 [Video](https://youtu.be/ypBq4xV6868)
 
-We were able to achieve all 4 of our requirements with our design. During our end of year demo, we successfully utilized the system to pick up various objects. Operators were able to remotely feel the force of the items they were grasping as if they were using their own hands. Watch the demo video below:
+We were able to achieve all 4 of our requirements with our design. During our end of year demo, we successfully utilized the system to pick up various objects. Operators were able to remotely feel the force of the items they were grasping as if they were using their own hands.
 
-[demo video]
-
-[back](./)
+## [Back](./)
