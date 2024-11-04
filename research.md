@@ -51,4 +51,4 @@ I was able to achieve all 3 of my goals, with some surprising results.
 
 Using my findings, I was able to successfully program the Pick and Place machine to build both devices. I held multiple live demos where I instructed my fellow researchers both on how to use the program, as well as how to create their own for other devices.
 
-[back](./)
+## [Back](./)
