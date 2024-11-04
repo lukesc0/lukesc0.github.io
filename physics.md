@@ -12,7 +12,7 @@ This is a series of 2D mechanical dynamics simulations, coded and animated from 
 
 Watch the video here:
 
-[Video](https://youtu.be/1ax9_4K2qjI)
+[Demo Video](https://youtu.be/1ax9_4K2qjI)
 
 The first clip is a double pendulum constrained to two rails.
 
