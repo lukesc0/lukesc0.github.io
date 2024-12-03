@@ -62,8 +62,6 @@ This design resulted in the following thumb workspace, basically a 2D surface li
 Most parts were manufactured out of 1/4 inch aluminum sheets. Cylindrical parts (shafts and pulleys) were lathed while flat components were water jetted and then milled to produce proper hole sizes. Occasionally parts were 3D printed out of PLA, most particularly tensioner holders, spacers, and the end effector.
 	The overall system is held together by bolts, and locktight in the case of attaching the main waggle bearing shaft to the mounting plate. All components not manufactured by us were ordered from McMaster Carr (ie. bearings, bolts, etc.).
 
-See overall assembly drawings here:
-
 ### Results
 
 The final thumb:
