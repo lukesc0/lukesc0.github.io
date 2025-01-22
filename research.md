@@ -14,11 +14,9 @@ My research was based on the fabrication of 2 different devices, a brain patch a
 
 Brain Patch:
 
-![patch](pics/brainpatch.png)
 
 Imaging Device:
 
-![imaging](pics/imagingsensor.png)
 
 Previously, most devices in the lab using components this size were built by hand, using tweezers under a microscope -- an arduous and time-consuming process. My goal was to fully automate the component placement process, so that a fellow researcher could follow simple PCB mounting and solderpaste screen-printing instructions, place the device into the Pick and Place machine, calibrate, and press play.
 
