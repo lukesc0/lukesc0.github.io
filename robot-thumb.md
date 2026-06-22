@@ -17,7 +17,7 @@ Our final product had to meet the following design requirements:
 3. A maximum of 2 actuators (both back-drivable) per robotic appendage
 4. Must be designed almost entirely for in-house manufacturing and assembly out of metal
 
-For req. 1, we settled on a target of 1.6-nm of torque applied at the tip of the thumb, based on quick calculations assuming the weight of the lifted object as 1kg (an overestimate), a friction factor of 0.5, and a total thumb length of 0.08m.
+For req. 1, we settled on a target of 1.6-nm of torque applied at the tip of the thumb (settled by committee).
 
 We left the incorporation of req. 2 to the haptic thumb team.
 
